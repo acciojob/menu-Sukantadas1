@@ -25,11 +25,11 @@ const App = () => {
   };
 
   return (
-    <div className="app">
+    <main id="main">
       <h1>Menu App</h1>
       <Categories categories={allCategories} filterDishes={filterDishes} />
       <Menu dishes={dishes} />
-    </div>
+    </main>
   );
 };
 
